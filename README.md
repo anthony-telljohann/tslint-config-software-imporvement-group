@@ -1,14 +1,21 @@
-# TSLint Config Airbnb
+# tslint-config-software-improvement-group
 
-[![NPM version](https://img.shields.io/npm/v/tslint-config-airbnb.svg?style=flat)](https://www.npmjs.com/package/tslint-config-airbnb)
-[![Downloads](http://img.shields.io/npm/dm/tslint-config-airbnb.svg?style=flat)](https://npmjs.org/package/tslint-config-airbnb)
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> A [TSLint config](https://palantir.github.io/tslint/usage/configuration/) for [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+> [TSLint configuration](https://palantir.github.io/tslint/usage/configuration/) for Software Improvement Group&#39;s (SIG) 10 guidelines for building maintainable software.
 
-## Installation
+## Table of Contents <!-- omit in toc -->
 
-```sh
-npm install tslint-config-airbnb --save-dev
+- [Install](#install)
+- [Usage](#usage)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Install
+
+```console
+npm install --save-dev tslint-config-software-improvement-group
 ```
 
 ## Usage
@@ -17,27 +24,19 @@ In `tslint.json`:
 
 ```json
 {
-  "extends": "tslint-config-airbnb"
+  "extends": ["tslint-config-software-improvement-group"]
 }
 ```
 
-### Rules
+## Maintainers
 
-* [tslint](https://www.npmjs.com/package/tslint)
-* [tslint-consistent-codestyle](https://www.npmjs.com/package/tslint-consistent-codestyle)
-* [tslint-eslint-rules](https://www.npmjs.com/package/tslint-eslint-rules)
-* [tslint-microsoft-contrib](https://www.npmjs.com/package/tslint-microsoft-contrib)
+- [Anthony Telljohann](https://github.com/anthony-telljohann)
+- [Jacqueline Telljohann](https://github.com/jmtelljohann)
 
-## Versioning
+## Contributing
 
-```
-+----- Major version is synchronize with tslint's major version.
-| +--- Minor version has BREAKING CHANGE and feat.
-| | +- Patch version has patch.
-| | |
-x.x.x
-```
+PRs accepted.
 
 ## License
 
-Apache 2.0
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
